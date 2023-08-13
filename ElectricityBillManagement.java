@@ -1,10 +1,8 @@
 import java.util.*;
-//import java.lang.String;
+import java.lang.String;
 import java.io.*;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
-
-
 
 class BillManagement {
 	
@@ -32,8 +30,7 @@ class BillManagement {
         return scanner.nextLine();
     }
 
-    
-    void login() {
+void login() {
         int a;
         String pass;
         System.out.print("\t\t\t\t\t __________________________________________________________________________ \n");
